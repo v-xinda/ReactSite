@@ -27,11 +27,13 @@
     {
       "route": "/api/*",
       "allowedRoles": ["legend"]
-    },
-    {
-      "route": "/*", 
-      "serve": "/index.html", 
-      "statusCode": 200 
     }
-  ] 
+  ],
+ "platformErrorOverrides": [
+   {
+     "errorType": "NotFound",
+     "serve": "/index.html",
+     "statusCode": 200
+   }
+ ]
 } 
