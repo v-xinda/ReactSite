@@ -19,6 +19,9 @@ module.exports = async function (context, req) {
     }
 
     context.res = {
-        body: user
+        body: user,
+        headers: {
+            'Content-Type': 'application/json'
+        },
     }
 };
