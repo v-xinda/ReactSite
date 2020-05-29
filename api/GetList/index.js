@@ -22,6 +22,6 @@ module.exports = async function (context, req) {
         body: user,
         headers: {
             'Content-Type': 'application/json'
-        },
+        }
     }
 };
