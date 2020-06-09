@@ -1,5 +1,9 @@
 { 
-  "routes": [ 
+  "routes": [
+    {
+      "route": "/randomhidden.txt",
+      "statusCode": 404
+    },
     {
       "route": "/login",
       "serve": "/.auth/login/github"
