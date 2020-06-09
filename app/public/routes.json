@@ -2,7 +2,8 @@
   "routes": [
     {
       "route": "/randomhidden.txt",
-      "statusCode": 404
+      "statusCode": 301,
+      "serve": "/"
     },
     {
       "route": "/login",
