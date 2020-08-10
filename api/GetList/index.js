@@ -10,16 +10,16 @@ function getUserInfo(req){
 }
 
 module.exports = async function (context, req) {
-    context.log('JavaScript HTTP trigger function processed a request.');
+    //context.log('JavaScript HTTP trigger function processed a request.');
     
-    const user = getUserInfo(req);
-    if (user === null)
-    {
-        user = {}
-    }
+    //const user = getUserInfo(req);
+    //if (user === null)
+    //{
+    //    user = {}
+    //}
 
     context.res = {
-        body: {},
+        body: {req.headers},
         headers: {
             'Content-Type': 'application/json'
         }
