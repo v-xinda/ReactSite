@@ -28,10 +28,6 @@
     {
       "route": "/.auth/login/google",
       "statusCode": "404"
-    },
-    {
-      "route": "/api/*",
-      "allowedRoles": ["legend"]
     }
   ],
  "platformErrorOverrides": [
