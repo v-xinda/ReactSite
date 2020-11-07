@@ -23,7 +23,7 @@ class FetchDemo extends React.Component {
         });
     }
   
-    render() 
+    render() {
       return (
         <div className="App">
         <header className="App-header">
