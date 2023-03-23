@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Look at this really cool spinny thing we have here. Visible update. Hello from the Azure Tools for VS Code team!
+          Look at this really cool spinny thing we have here.
         </p>
         <a
           className="App-link"
